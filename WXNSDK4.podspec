@@ -9,7 +9,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/glimy1314/WXNSDK4.git", :tag => "#{spec.version}" }
 
-  spec.vendored_frameworks = 'WXNSDK4.framework'
   spec.frameworks          = 'Foundation'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm7 armv7 arm64' }
 
